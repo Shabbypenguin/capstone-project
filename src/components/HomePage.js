@@ -47,7 +47,7 @@ function HomePage() {
                         categories ranging from topics across pop culture, entertainment, and academia.
                         <br/>
                         <br/>
-                        Rack up as many correct answers as you can within the time limit to place on
+                        Rack up as many correct answers as you can to place on
                         the leaderboard and prove to everyone that you are the one, true QuizWiz!
                     </p>
                 </Row>
@@ -118,12 +118,6 @@ function HomePage() {
                             <Button className="QuizButton"> <div className="QuizButtonContainer"> 
                                 <FontAwesomeIcon icon={faBolt}/>
                                 <div className="QuizButtonText">Comics</div></div>
-                            </Button>
-                        </Link>
-                        <Link className="QuizLink" to={{ pathname: `/quiz/100`}}>
-                            <Button className="QuizButton"> <div className="QuizButtonContainer"> 
-                                <FontAwesomeIcon icon={faQuestion}/>
-                                <div className="QuizButtonText">Random</div></div>
                             </Button>
                         </Link>
                     </ButtonGroup>

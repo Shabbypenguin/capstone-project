@@ -39,7 +39,6 @@ function Leaderboard(props) {
 				setfirstPlace(result[0])
 				setsecondPlace(result[1])
 				setthirdPlace(result[2])
-				console.log(leaderboard)
 			}
 		)
 	}
@@ -53,38 +52,42 @@ function Leaderboard(props) {
 			<Row className="HomeBlurb" style={styling}>
 				<Carousel fade>
 					<Carousel.Item>
+					<br/><br/><br/><br/><br/>
 						<img
-							className="d-block w-100"
+							className="leaderboardSliderImage"
 							src="QuizWizGold.png" fluid
 							alt="First slide"
 						/>
 						<Carousel.Caption id="carousel-caption">
 							<h3>First Place QuizWiz</h3>
-							<p>&#8205; &#8205; &#8205; &#8205; &#8205; &#8205; &#8205; &#8205; You are the Gandalf of all the quiz wizards, a true Quizard!</p>
+							<p>You are the Gandalf of all the quiz wizards, a true Quizard!</p>
 							{firstPlace.username} : {firstPlace.score}
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
+					<br/><br/><br/><br/><br/>
 						<img
-							className="d-block w-100"
+							className="leaderboardSliderImage"
 							src="QuizWizSilver.png" fluid
 							alt="Second slide"
 						/>
 						<Carousel.Caption id="carousel-caption">
 							<h3>Second Place QuizWiz</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p>good job, you are almost to the top!</p>
+
 							{secondPlace.username} : {secondPlace.score}
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
+					<br/><br/><br/><br/><br/>
 						<img
-							className="d-block w-100"
+							className="leaderboardSliderImage"
 							src="QuizWizBronze.png" fluid
 							alt="Third slide"
 						/>
 						<Carousel.Caption id="carousel-caption">
 							<h3>Third Place QuizWiz</h3>
-							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+							<p>Not bad, but you can keep pushing!.</p>
 							{thirdPlace.username} : {thirdPlace.score}
 						</Carousel.Caption>
 					</Carousel.Item>

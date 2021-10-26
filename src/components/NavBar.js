@@ -28,11 +28,13 @@ function Navbar() {
                 )}</button>
 
                 <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-                    <NavLink to="/" className='inactive' id="a">Home</NavLink>
-                    <NavLink to="/profile" className='inactive' id='a' >Profile</NavLink>
+										<br/><br/><br/>
+                    <NavLink to="/homepage" className='inactive' id="a">Home</NavLink>
+                    <NavLink to="/leaderboard" className='inactive' id='a' >Leaderboard</NavLink>
+		    <NavLink to={'/profile/'+localStorage.getItem('wizardName')} className='inactive' id='a' >Profile</NavLink>
                 </ul>
-                <img src="QuizWizNav2.png" alt="QuizWiz Logotype"/>
-            </div>
+                <img id="logotype" src="/QuizWizNav2.png" alt="QuizWiz Logotype"/>
+              </div>
         </nav>
     )
 }

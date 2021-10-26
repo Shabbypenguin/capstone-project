@@ -75,11 +75,12 @@ function Profile(props) {
     </a>
     </div>                    
     <div id='info-container'>
+		<br /><br />
     Hello {wizardName}<br></br>
     Your current high score is {myScore}
-    </div>
-    <Link to={'/logout'}><Button variant="primary">Log Out</Button></Link>
-    <Link to={'/deleteprofile'}><Button variant="danger">Delete Account</Button></Link>
+    </div><br />
+    <Link to={'/'}><Button variant="primary">Log Out</Button></Link>
+    
     </div>
     <div id="top-ten">
     {leaderboardList}

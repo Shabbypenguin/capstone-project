@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 import '../App.css';
@@ -54,8 +53,7 @@ function Login(props) {
 
     return (
         <div id="logBody">
-           
-            <img id="login-title" src="/QuizWizNav3.png" alt="QuizWiz Logotype"/>
+            <div id="login-title">Quiz Whiz</div>
             <div id="login-Container">
                 
                 <input className="log-RegText" type="text" name="username" onChange={handleLoginChange} placeholder="User name" /><br></br>
@@ -66,7 +64,7 @@ function Login(props) {
             
             <div className="icon-container" style={{ textAlign: "center" }}>
 
-            <NavLink to="/register" className='regLink'>Register Here</NavLink>
+            Not A Member Yet?  <NavLink to="/register" className='regLink'>Register Here</NavLink>
 
                 <a id="google-btn" href="https://quiz-wiz-server.glitch.me/auth/google">
                 <a href="https://quiz-wiz-server.glitch.me/auth/google">
