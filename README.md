@@ -58,7 +58,7 @@ https://user-images.githubusercontent.com/86688411/141522288-a2b46472-63a2-4b45-
 
  <h2 align="center">Thank You For Stopping By!</h2> 
  <h3 align='center'><a align='center' href="" >Check Out My Portfolio</a></h3>
-<p align='center'>For enquiries or empolyment oppurtunities, please reach out at <a href="mailto:youremail.com">your email.com</a> or over on <a href="https://www.linkedin.com">LinkedIn</a>.</p>
+<p align='center'>For enquiries or empolyment oppurtunities, please reach out at <a href="mailto:shabbypenguin@gmail.com">via email</a> or over on <a href="https://www.linkedin.com">LinkedIn</a>.</p>
 
 
 
